@@ -23,7 +23,7 @@ lottoziehung <- function(){
     ## Superzahl
     sz <- sample(0:9, 1)   
     
-    result <- paste0("6 aus 49 Tipp: ",Reduce("paste",hz)," SZ ",Reduce("paste",sz)) 
+    result <- paste0("6 aus 49 Tipp: ",Reduce("paste",hz)," ... SZ ",Reduce("paste",sz)) 
     
     return(result)
 }
