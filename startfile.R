@@ -5,12 +5,13 @@
 ## Aufruf:
 ## ziehung()
 
-## per remote sourcen
+## von remote sourcen per devtools::source_url(<link zur file-raw-version>)
 ## ABER "private" Repositories verwenden einen token.
 ##       Diesen zuvor in github nachschlagen 
 ##       (Datei in der Ansicht "raw" anklicken, dann siehe website-adressleiste)
 # library(devtools)
-# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lotto/master/startfile.R?token=ADC234JIJCKS7CXBALKO4L244PETO"  
+# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lotto/master/startfile.R?token=ADC234JIJCKS7CXBALKO4L244PETO" 
+# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lottoziehung/master/startfile.R"
 # source_url(gitHub_code)
 
 
