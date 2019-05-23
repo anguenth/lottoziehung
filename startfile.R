@@ -6,10 +6,13 @@
 ## ziehung()
 
 ## von remote sourcen per devtools::source_url(<link zur file-raw-version>)
-## ABER für "private" Repositories in GitLab funktioniert es nicht, da keine Möglichkeit, sich zu authentifizieren.
+## ABER "private" Repositories verwenden einen token.
+##       Diesen zuvor in github nachschlagen 
+##       (Datei in der Ansicht "raw" anklicken, dann siehe website-adressleiste)
 # library(devtools)
-# gitLab_code <- "https://gitlab.com/anguenther/lottoziehung/raw/master/lottoziehung.R"
-# source_url(gitLab_code)
+# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lotto/master/startfile.R?token=ADC234JIJCKS7CXBALKO4L244PETO" 
+# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lottoziehung/master/startfile.R"
+# source_url(gitHub_code)
 
 
 ## 6 aus 49 plus Superzahl
