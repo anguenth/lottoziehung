@@ -9,14 +9,14 @@
 ## ABER "private" Repositories verwenden einen token.
 ##       Diesen zuvor in github nachschlagen 
 ##       (Datei in der Ansicht "raw" anklicken, dann siehe website-adressleiste)
-library(devtools)
-gitHub_code <- "https://raw.githubusercontent.com/anguenth/lotto/master/startfile.R?token=ADC234PJXEDX27DKNQT5IOS5BIZGQ"   ## privates Projekt
-gitHub_code <- "https://raw.githubusercontent.com/anguenth/lottoziehung/master/startfile.R"                                ## öffentliches Projekt
-source_url(gitHub_code)
+# library(devtools)
+# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lotto/master/startfile.R?token=ADC234PJXEDX27DKNQT5IOS5BIZGQ"   ## privates Projekt lotto (mit lotto())
+# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lottoziehung/master/startfile.R"                                ## öffentliches Projekt lottoziehung (mit lotto6aus49() und eurojackpot())
+# source_url(gitHub_code)
 
 
 ## 6 aus 49 plus Superzahl
-lotto <- function(){
+lotto6aus49 <- function(){
     
     
     hz <- sort(sample(1:49, 6))                ## dflt: replace=FALSE in sample(1:49, 6, replace=FALSE), d.h. ohne Zurücklegen ## sort(floor(runif(6, min=1, max=50))) ist immer mit Zurücklegen, daher ungeeignet 
