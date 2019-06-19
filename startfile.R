@@ -9,10 +9,10 @@
 ## ABER "private" Repositories verwenden einen token.
 ##       Diesen zuvor in github nachschlagen 
 ##       (Datei in der Ansicht "raw" anklicken, dann siehe website-adressleiste)
-# library(devtools)
-# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lotto/master/startfile.R?token=ADC234JIJCKS7CXBALKO4L244PETO" 
-# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lottoziehung/master/startfile.R"
-# source_url(gitHub_code)
+library(devtools)
+gitHub_code <- "https://raw.githubusercontent.com/anguenth/lotto/master/startfile.R?token=ADC234PJXEDX27DKNQT5IOS5BIZGQ"   ## privates Projekt
+gitHub_code <- "https://raw.githubusercontent.com/anguenth/lottoziehung/master/startfile.R"                                ## öffentliches Projekt
+source_url(gitHub_code)
 
 
 ## 6 aus 49 plus Superzahl
