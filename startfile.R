@@ -1,5 +1,5 @@
 ##
-## Ziehung der Lottozahlen 6 aus 49 plus Superzahl
+## Ziehung der Lottozahlen für lotto6aus49 und eurojackpot
 ##
 
 ## Aufruf:
