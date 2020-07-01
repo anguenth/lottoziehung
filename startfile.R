@@ -9,9 +9,9 @@
 ## von remote sourcen per devtools::source_url(<link zur file-raw-version>)
 ## ABER "private" Repositories verwenden einen token.
 ##       Diesen zuvor in github nachschlagen 
-##       (Datei in der Ansicht "raw" anklicken, dann siehe website-adressleiste)
+##       (Datei in der Ansicht "raw" anklicken, dann siehe "token="-Suffix in Adressleiste der Website)
 # library(devtools)
-# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lotto/master/startfile.R?token=ADC234PJXEDX27DKNQT5IOS5BIZGQ"   ## privates Projekt lotto (mit lotto())
+# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lotto/master/startfile.R?token=ADC234LY73XKYYEDA2FCXZ267S3DG"   ## privates Projekt lotto (mit lotto())
 # gitHub_code <- "https://raw.githubusercontent.com/anguenth/lottoziehung/master/startfile.R"                                ## öffentliches Projekt lottoziehung (mit lotto6aus49() und eurojackpot())
 # source_url(gitHub_code)
 
