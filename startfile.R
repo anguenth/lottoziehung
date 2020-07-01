@@ -12,7 +12,7 @@
 ##       (Datei in der Ansicht "raw" anklicken, dann siehe website-adressleiste)
 # library(devtools)
 # gitHub_code <- "https://raw.githubusercontent.com/anguenth/lotto/master/startfile.R?token=ADC234PJXEDX27DKNQT5IOS5BIZGQ"   ## privates Projekt lotto (mit lotto())
-# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lottoziehung/master/startfile.R"                                ## oeffentliches Projekt lottoziehung (mit lotto6aus49() und eurojackpot()) 
+# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lottoziehung/master/startfile.R"                                ## öffentliches Projekt lottoziehung (mit lotto6aus49() und eurojackpot())
 # source_url(gitHub_code)
 
 
